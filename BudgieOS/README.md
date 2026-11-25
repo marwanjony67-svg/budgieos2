@@ -8,7 +8,7 @@ This repository contains the first kernel skeleton and build layout. It is a dev
 
 ## Boot strategy
 
-The first milestone uses the Limine boot protocol to get a reliable x86_64 kernel running. Limine is an external bootloader; this means the first milestone does **not** yet contain a custom BudgieOS bootloader. A native BudgieOS boot manager can be developed as a later milestone once the kernel has a stable boot contract.
+Limine is the planned first bootloader so the project can focus on kernel foundations before writing a native boot manager. The current files are only a compile-oriented kernel skeleton: Limine protocol requests and a verified bootable ISO have **not** been implemented yet. This means the current ELF should not be treated as bootable. A native BudgieOS boot manager can be developed later once the kernel has a stable boot contract.
 
 ## Source layout
 
