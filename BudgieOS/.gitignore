@@ -1,0 +1,5 @@
+/build/
+/iso_root/
+/*.iso
+*.o
+*.elf
